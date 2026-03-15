@@ -1,0 +1,22 @@
+.alerts-list { display: flex; flex-direction: column; gap: 12px; }
+.alert-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-left: 2px solid var(--green); border-radius: 14px;
+  padding: 18px 22px; display: flex; align-items: center; gap: 18px;
+  transition: transform 0.2s; animation: float-up 0.3s ease both;
+}
+.alert-card:hover { transform: translateX(4px); }
+.al-icon { width: 42px; height: 42px; border-radius: 12px; background: rgba(74,222,128,0.08); border: 1px solid rgba(74,222,128,0.18); display: flex; align-items: center; justify-content: center; font-size: 17px; flex-shrink: 0; }
+.al-body { flex: 1; min-width: 0; }
+.al-title { font-size: 14px; font-weight: 400; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.al-link { font-size: 11px; color: var(--cyan); font-family: var(--mono); margin-top: 3px; display: block; }
+.al-prices { text-align: right; flex-shrink: 0; }
+.al-hit { font-family: var(--display); font-size: 22px; font-weight: 500; color: var(--green); }
+.al-target { font-size: 11px; color: var(--text2); font-family: var(--mono); margin-top: 2px; }
+.al-saved { font-size: 11px; color: var(--cyan); font-family: var(--mono); margin-top: 2px; }
+.al-time { font-size: 11px; color: var(--muted); font-family: var(--mono); flex-shrink: 0; text-align: right; min-width: 110px; }
+.alerts-empty { text-align: center; padding: 80px 24px; }
+.ae-icon { font-size: 36px; color: var(--muted); margin-bottom: 16px; }
+.ae-title { font-family: var(--display); font-size: 22px; font-weight: 400; color: var(--text2); margin-bottom: 8px; }
+.ae-sub { font-size: 13px; color: var(--muted); max-width: 320px; margin: 0 auto; line-height: 1.7; font-weight: 300; }
+@media (max-width: 600px) { .alert-card { flex-wrap: wrap; } .al-time { min-width: 0; } }

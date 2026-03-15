@@ -1,0 +1,41 @@
+.app { min-height: 100vh; position: relative; overflow: hidden; }
+
+.app-bg { position: fixed; inset: 0; z-index: 0; pointer-events: none; overflow: hidden; }
+.app-bg::before {
+  content: ''; position: absolute; inset: 0;
+  background:
+    radial-gradient(ellipse 70% 50% at 15% 15%, rgba(56,189,248,0.055) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 40% at 85% 85%, rgba(212,168,67,0.04) 0%, transparent 55%);
+}
+.grid-overlay {
+  position: absolute; inset: 0;
+  background-image:
+    linear-gradient(rgba(56,189,248,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(56,189,248,0.02) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+.light-streak {
+  position: absolute; height: 1px; width: 55%;
+  background: linear-gradient(90deg, transparent, rgba(56,189,248,0.25), transparent);
+  animation: drift 16s linear infinite; transform-origin: left;
+}
+.light-streak:nth-child(2) { top: 30%; animation-duration: 22s; animation-delay: -7s; width: 38%; background: linear-gradient(90deg, transparent, rgba(212,168,67,0.18), transparent); }
+.light-streak:nth-child(3) { top: 65%; animation-duration: 19s; animation-delay: -12s; width: 45%; }
+.light-streak:nth-child(1) { top: 18%; }
+
+.main { position: relative; z-index: 1; max-width: 1200px; margin: 0 auto; padding: 36px 28px 150px; }
+
+.section-header { display: flex; align-items: flex-end; justify-content: space-between; margin-bottom: 28px; gap: 16px; flex-wrap: wrap; }
+.section-eyebrow { font-family: var(--mono); font-size: 10px; letter-spacing: 3px; color: var(--cyan); text-transform: uppercase; margin-bottom: 6px; }
+.section-headline { font-family: var(--display); font-size: 38px; font-weight: 400; color: var(--text); line-height: 1.1; letter-spacing: -0.5px; }
+.section-headline em { font-style: italic; color: var(--cyan); }
+
+.btn-add {
+  display: flex; align-items: center; gap: 8px;
+  background: var(--cyan); color: #020e1a;
+  border: none; padding: 12px 22px; border-radius: 9px;
+  font-weight: 600; font-size: 13px; cursor: pointer;
+  transition: all 0.2s; white-space: nowrap; flex-shrink: 0;
+  letter-spacing: 0.2px;
+}
+.btn-add:hover { background: var(--cyan2); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(56,189,248,0.28); }
