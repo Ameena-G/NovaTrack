@@ -181,12 +181,12 @@ novatrack/
 
 | Variable | Required | Description |
 |---|---|---|
-| `GROQ_API_KEY` | ✅ Yes | Free at [console.groq.com](https://console.groq.com) |
-| `SMTP_HOST` | ⚠️ Optional | SMTP server for email alerts |
-| `SMTP_PORT` | ⚠️ Optional | Usually `587` |
-| `SMTP_USER` | ⚠️ Optional | Your email address |
-| `SMTP_PASS` | ⚠️ Optional | Gmail App Password |
-| `PORT` | ⚠️ Optional | Defaults to `3001` |
+| `GROQ_API_KEY` | Yes | Free at [console.groq.com](https://console.groq.com) |
+| `SMTP_HOST` | Optional | SMTP server for email alerts |
+| `SMTP_PORT` | Optional | Usually `587` |
+| `SMTP_USER` | Optional | Your email address |
+| `SMTP_PASS` | Optional | Gmail App Password |
+| `PORT` | Optional | Defaults to `3001` |
 
 ---
 
