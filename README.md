@@ -1,21 +1,9 @@
-<div align="center">
-
-<img src="https://img.shields.io/badge/Amazon%20Nova-Powered-00d4ff?style=for-the-badge&logo=amazon&logoColor=white" />
-<img src="https://img.shields.io/badge/Node.js-18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-<img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/Playwright-Browser%20AI-45ba4b?style=for-the-badge&logo=playwright&logoColor=white" />
-<img src="https://img.shields.io/badge/Hackathon-Amazon%20Nova-ff9500?style=for-the-badge" />
-
-<br /><br />
-
 # 🎯 NovaTrack
 ### AI Price Intelligence — Powered by Amazon Nova
 
-**An autonomous AI agent that browses real websites, monitors product prices in ₹ Indian Rupees, and alerts you the instant a deal is worth taking.**
+**An autonomous AI agent that browses real websites, monitors product prices, and alerts you the instant a deal is worth taking.**
 
 <br />
-
-![NovaTrack Dashboard Preview](https://via.placeholder.com/900x500/060d0d/2dd4bf?text=NovaTrack+Dashboard)
 
 </div>
 
