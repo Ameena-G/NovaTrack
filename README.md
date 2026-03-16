@@ -7,6 +7,13 @@
 
 </div>
 
+## Screenshots
+
+### Landing Page
+![Landing](docs/screenshots/landing.png)
+
+## Application Dashboard
+![Dashboard Screenshot](docs/screenshots/dashboard.png)
 ---
 
 ## 📌 What is NovaTrack?
