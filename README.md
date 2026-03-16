@@ -10,11 +10,13 @@
 ## Screenshots
 
 ### Landing Page
-![Landing](docs/screenshots/Landing.png)
+![Landing](docs/Landing.png)
 
 ## Application Dashboard
-![Dashboard Screenshot](docs/screenshots/Dashboard.png)
+![Dashboard Screenshot](docs/Dashboard.png)
+
 ---
+
 
 ## 📌 What is NovaTrack?
 
