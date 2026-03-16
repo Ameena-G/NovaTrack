@@ -239,6 +239,10 @@ const { price, currency, title } = JSON.parse(completion.choices[0].message.cont
 - [ ] Mobile app with push notifications
 - [ ] WhatsApp alert integration for Indian users
 
+## Demo Video
+
+[![Watch the Demo]](https://youtu.be/_m3pYkKG_zE)
+
 ---
 
 ## 📄 License
