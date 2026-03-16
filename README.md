@@ -247,7 +247,8 @@ const { price, currency, title } = JSON.parse(completion.choices[0].message.cont
 
 ## 📄 License
 
-MIT © 2025 NovaTrack
+MIT License — see [LICENSE](LICENSE) for details.
+© 2026 NovaTrack
 
 ---
 
